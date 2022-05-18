@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    imagename = "satyagsn/my-jenkinsdocker-website"
+    imagename = "suresh222/my-jenkinsdocker-website"
     registryCredential = 'dockerCredentials'
     dockerImage = ''
   }
@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
-        git([url: 'https://github.com/satyagsn/finalproject.git', branch: 'master'])
+        git([url: 'https://github.com/sureshnarra5/requirement---3', branch: 'master'])
 
       }
     }
