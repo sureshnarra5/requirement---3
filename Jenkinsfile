@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
-        git([url: 'https://github.com/satyagsn/project-requirement', branch: 'master'])
+        git([url: 'https://github.com/satyagsn/finalproject.git', branch: 'master'])
 
       }
     }
